@@ -1,0 +1,11 @@
+public class Lab01Q3 {
+        public static void main(String[] args) {
+        Server s1 = new Server();
+        Server2 s2 = new Server2();
+
+        Client client = new Client();
+        client.doAction(s1);
+        client.doAction(s2);
+
+    }
+}

@@ -1,0 +1,17 @@
+public class Lab01Q2b {
+        public static void main(String[] args) {
+        Shape [] s = new Shape[5];
+        Action a = new Action();
+        
+        s[0] = new Rectangle(10, 5, new Point(3, 7));
+        s[1] = new Circle(6, new Point(8, 2));
+        s[2] = new Rectangle(3, 9, new Point(1, 5));
+        s[3] = new Circle(4, new Point(9, 1));
+        s[4] = new Circle(7, new Point(6, 3));
+        
+        for (Shape shape: s){
+        a.doAction(shape);
+        } 
+
+    }
+}
